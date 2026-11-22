@@ -8,19 +8,19 @@ copies the site files into a `public/` folder and GitLab serves that.
 ## On gitlab.com
 
 1. Sign in at gitlab.com. To have the site under a group name, first create a
-   group (top-left "+" → "New group"), for example `multiferro`.
+   group (top-left "+" → "New group"), for example `ferronest`.
 2. Create a blank project. The name decides the address:
    - `USERNAME.gitlab.io` (or `GROUPNAME.gitlab.io` inside a group) is served
      at `https://USERNAME.gitlab.io/`.
-   - Any other name, e.g. `ferrolab`, is served at
-     `https://USERNAME.gitlab.io/ferrolab/`. The site uses relative links,
+   - Any other name, e.g. `ferronest`, is served at
+     `https://USERNAME.gitlab.io/ferronest/`. The site uses relative links,
      so both work.
    Set visibility to Public, and untick "Initialize repository with a README".
 3. Upload the files. Either push with git from this folder:
 
        git init
        git add .
-       git commit -m "Ferrolab website"
+       git commit -m "FerroNest website"
        git remote add origin https://gitlab.com/USERNAME/PROJECT.git
        git push -u origin main
 

@@ -1,4 +1,4 @@
-# Ferrolab website
+# FerroNest website
 
 Static site for Sergey Lisenkov's research group, Department of Physics,
 University of South Florida. Plain HTML and CSS, no build system, so it works
@@ -39,7 +39,7 @@ on GitHub Pages (or any web server) as soon as the files are pushed.
 4. After a minute the site is live at the address shown on that page.
    Every later push updates it automatically.
 
-A custom domain (for example `ferrolab.org`) can be added on the same
+A custom domain (for example `ferronest.org`) can be added on the same
 settings page once you own one.
 
 ## Adding a paper
